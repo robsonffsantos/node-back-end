@@ -3,8 +3,10 @@
   "version": "1.0.0",
   "description": "api criada para testar integração com o front-end",
   "main": "index.js",
-  "scripts": {
-  },
+  "scripts": {},
   "author": "Robson Fernando",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "koa": "^2.13.4"
+  }
 }
