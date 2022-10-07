@@ -4,7 +4,11 @@
   "description": "api criada para testar integração com o front-end",
   "main": "server.js",
   "type": "module",
-  "scripts": {},
+  "scripts": { 
+  },
+  "prisma" : {
+    "seed": "node prisma/seed.js"
+  },
   "author": "Robson Fernando",
   "license": "ISC",
   "dependencies": {
